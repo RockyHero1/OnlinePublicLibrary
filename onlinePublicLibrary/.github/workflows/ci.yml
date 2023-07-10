@@ -14,7 +14,7 @@ jobs:
           java-version: "17"
           distribution: "adopt"
 
-      - name: BUild test
+      - name: Build test
         run: ls -halt
 
       - name: Run tests
