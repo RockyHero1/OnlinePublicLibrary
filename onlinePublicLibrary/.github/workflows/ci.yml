@@ -14,5 +14,10 @@ jobs:
           java-version: "17"
           distribution: "adopt"
 
+      - name: BUild test
+        run: ls -halt
+
       - name: Run tests
         run: ./gradlew build
+
+
